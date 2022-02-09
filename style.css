@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292929;
+    font-family: 'Open Sans',sans-serif;
+}
+.card{
+    width: 350px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #ffffff, #000000);
+    padding-top: 30px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+.card img{
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 7px;
+}
+.content{
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.content h1{
+    font-size: 1.4em;
+}
+.content h2{
+    font-size: 0.8em;
+    margin: 5px 0;
+}
+.content p{
+    font-size: 1em;
+    line-height: 1.4em;
+    width: 80%;
+    margin: 0 auto;
+}
+.buttons{
+    margin-bottom: 20px;
+}
+.buttons a{
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.filled{
+    background: #ffffff;
+    color: #000000;
+}
+.outline{
+    color: #ffffff;
+}
+.skills{
+    background: #000000;
+    text-align: left;
+    padding: 15px;
+}
+.skills h3{
+    font-size: 1em;
+    margin: 5px 0;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.skills ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.skills ul li{
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    font-size: 0.6em;
+    color: #ffffff;
+}
+.card:hover{
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+a.filled:hover{
+    background: transparent;
+    color: #ffffff;
+}
+.outline:hover{
+    background: #ffffff;
+    color: #000000;
+}
